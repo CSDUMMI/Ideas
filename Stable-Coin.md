@@ -13,14 +13,14 @@ adoption cryptocurrencies need to be stable!**
 
 ## How are fiat currencies stable? 
 The most important factor for the stability of a currency like the USD is the 
-size of it's market, the larger the market, the less likely rapid fluctuation 
+size of it's market, the larger and more diverse the market, the less likely rapid fluctuation 
 in value is.
 
-But cryptocurrencies have a small market, if you compare it to the market of the USD, 
+But cryptocurrencies have a small and often specialized market, if you compare it to the market of the USD, 
 Euro or any other currency that is adopted by a whole country.
 
-So if we want a stable coin we need a large market, but to get a large market, we need to be stable? 
-That doesn't work ( only if a country would adopt our currency )! 
+So if I want a stable coin I need a large market, but to get a large market, I need to be stable? 
+That doesn't work ( only if a country would adopt that currency )! 
 We need a way of keeping a currency stable in the time between wide-spread adoption and the beginning.
 What methods for keeping coins stable are there? 
 
@@ -29,7 +29,7 @@ There are currently three methods for creating stable coins,
 all of which have the disadvantage of depending on other factors 
 than the adoption of the coin to survive, some have to be redeemable 
 by another fiat or cryptocurrency and still others depend on people 
-lowing a mint money to keep the price stable, 
+loaning a mint money to keep the price stable, 
 all these schemes can fail, either because 
 the redeemable currency crashes or the coin runs out 
 of capital or because nobody loans the mint anymore money. 
@@ -147,12 +147,20 @@ and they will thus accept this "stealing"
 in the short term.
 
 # The Cons
+
+## Over ambitiouse creators
 Of course this approach has some seriouse risks
 too, what doesn't?
 One of the major risks is that the creators of
 the coin over estimated the value of the coin
 and that the coin is just not worth what they
-desired it to be. I mostly used the word desired,
+desired it to be. 
+Than, if nobody wants to buy the currency,
+everybody who owns the currency will be 
+imprisoned with his money in there, because
+they can't get it back.
+
+I mostly used the word desired,
 not pegged here, because that is essentially
 what this whole thing is, a scheme to circumvent 
 the open market and its estimation of the price.
@@ -163,3 +171,33 @@ made with the coin every day for a certain time.
 I would recommand to do this with all stable coins,
 to leave it for the open market at some point and
 only interfere with the price if it falls to far.
+
+## Depending on an outside source
+As you may have noticed this scheme
+depends on the accuracy of the exchange 
+rate it gets from the outside world, because
+if that exchange rate is faulty, many people
+will lose their money, so to keep this from
+happening you have to come up with a secure
+way to get the exchange rate into the blockchain.
+
+
+# Conclusion
+I think this scheme could be a method to stabilize
+a currency in the time before the market is large
+enough to stabilize it on its own.
+But it also depends on the trust of those people,
+that invest first, they won't get any later 
+advantage from buying in first, like they had
+with BTC or ETH, but they might be able to shape
+a totaly new, stable and secure market that only
+depends on the use of itself to stay stable.
+And of course, before anybody will put his life
+savings or anything important on this blockchain,
+it must proof to him that it is trust worthy.
+I know  that this explanation can't do so.
+
+If you have an opinion on this matter, please
+let me know.
+ 
+Joris Gutjahr
