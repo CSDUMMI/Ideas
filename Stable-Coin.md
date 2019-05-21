@@ -113,15 +113,53 @@ from the caller of `transfer`.
 
 Here, in the last line of the `transfer` function,
 the magic ( I hope ) happens.
-Because the receiver doesn't receive a copy 
+Because the receiver doesn't receive a the same amount of
+tokens the sender sent him, but rather he gets the amount
+multiplied by the exchange rate with the compared currency.
+What I want to achive with this is best explained with an
+example.
 
 ## One transaction 
-Let's say that A wants to send B 500 STK 
-(a symbol I made up that stands for Stable Token) 
-and the current exchange rate of STK is 2 USD,
-although the desired value is 1 USD. 
-In this case B would receive 500 STK * 2 USD = 1000 STK,
-this may seem like the exchange creates money out of air,
-but it just also increased the amount of STKs in circulation, 
-increasing supply and decreasing price until the price is only 1 USD, 
-back to the desired value.
+Lets say that  A wants to send B 500 of your tokens,
+that you pegged to the USD, meaning 1 Token = 1 USD.
+Now at the time of the transaction thee exchange rate
+between USD and your token = 0.5 USD.
+How much would be receive from the 500 Tokens that A send?
+500 * 0.5 = 250 Tokens.
+Why did I do that?
+To decrease the supply and increase the demand and thus the price!
+But why did I need to steal from B, who should have received 500 Tokens,
+but only received 250?
+Well, but would he eventually lose value?
+He wouldn't, because once the value increased and
+stablilized at 1 USD again, he would have the same
+value as A had before the transaction.
+And because the network should be in regular use,
+the price should go back to 1 USD soon,
+simply because the coin became so scares
+that nobody could have an incentive to
+sell the coin at a lower price and nobody
+has an incentive to buy the coin at a higher
+price anyway.
+Every users of the network has to trust that
+the value will eventually restore to 1 USD
+and they will thus accept this "stealing"
+in the short term.
+
+# The Cons
+Of course this approach has some seriouse risks
+too, what doesn't?
+One of the major risks is that the creators of
+the coin over estimated the value of the coin
+and that the coin is just not worth what they
+desired it to be. I mostly used the word desired,
+not pegged here, because that is essentially
+what this whole thing is, a scheme to circumvent 
+the open market and its estimation of the price.
+And in every cryptocurrency that this is implemented
+I would put a check in that disables this whole
+scheme, once a certain number of transactions are
+made with the coin every day for a certain time.
+I would recommand to do this with all stable coins,
+to leave it for the open market at some point and
+only interfere with the price if it falls to far.
