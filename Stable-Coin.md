@@ -113,7 +113,7 @@ from the caller of `transfer`.
 
 Here, in the last line of the `transfer` function,
 the magic ( I hope ) happens.
-Because the receiver doesn't receive a the same amount of
+Because the receiver doesn't receive the same amount of
 tokens the sender sent him, but rather he gets the amount
 multiplied by the exchange rate with the compared currency.
 What I want to achive with this is best explained with an
@@ -122,7 +122,7 @@ example.
 ## One transaction 
 Lets say that  A wants to send B 500 of your tokens,
 that you pegged to the USD, meaning 1 Token = 1 USD.
-Now at the time of the transaction thee exchange rate
+Now at the time of the transaction the exchange rate
 between USD and your token = 0.5 USD.
 How much would be receive from the 500 Tokens that A send?
 500 * 0.5 = 250 Tokens.
@@ -142,6 +142,7 @@ that nobody could have an incentive to
 sell the coin at a lower price and nobody
 has an incentive to buy the coin at a higher
 price anyway.
+
 Every users of the network has to trust that
 the value will eventually restore to 1 USD
 and they will thus accept this "stealing"
@@ -157,9 +158,8 @@ the coin over estimated the value of the coin
 and that the coin is just not worth what they
 desired it to be. 
 Than, if nobody wants to buy the currency,
-everybody who owns the currency will be 
-imprisoned with his money in there, because
-they can't get it back.
+everybody who owns the currency won't get his money back out of it,
+because nobody wants to buy it from them..
 
 I mostly used the word desired,
 not pegged here, because that is essentially
@@ -201,4 +201,3 @@ I know  that this explanation can't do so.
 If you have an opinion on this matter, please
 let me know.
  
-Joris Gutjahr
