@@ -81,7 +81,7 @@ with the money it earned selling new coins,
 but what if the mint's reserves are dry?  
 
 Here I want to go back to the transfer function from earlier, 
-with it's help I want to increase the total pool of coins.
+with it's help I want to increase and decreae the total pool of coins, if necessary.
 ```solidity
 // Exchange rate to another currency, that is desired to keep the token stable
 uint desired_value = 1; 
@@ -134,6 +134,7 @@ Well, but would he eventually lose value?
 He wouldn't, because once the value increased and
 stablilized at 1 USD again, he would have the same
 value as A had before the transaction.
+( A has 500 Tokens = 250 USD, B will have 250 Tokens = 250 USD)
 And because the network should be in regular use,
 the price should go back to 1 USD soon,
 simply because the coin became so scares
