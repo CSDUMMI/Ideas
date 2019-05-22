@@ -121,11 +121,14 @@ example.
 
 ## One transaction 
 Lets say that  A wants to send B 500 of your tokens,
-that you pegged to the USD, meaning 1 Token = 1 USD.
+that you desired to have the same value as USD, 
+meaning 1 Token = 1 USD.
 Now at the time of the transaction the exchange rate
 between USD and your token = 0.5 USD.
 How much would be receive from the 500 Tokens that A send?
+
 500 * 0.5 = 250 Tokens.
+
 Why did I do that?
 To decrease the supply and increase the demand and thus the price!
 But why did I need to steal from B, who should have received 500 Tokens,
@@ -134,7 +137,9 @@ Well, but would he eventually lose value?
 He wouldn't, because once the value increased and
 stablilized at 1 USD again, he would have the same
 value as A had before the transaction.
-( A has 500 Tokens = 250 USD, B will have 250 Tokens = 250 USD)
+
+( A has 500 Tokens * 0.5 = 250 USD, B will have 250 Tokens * 1 = 250 USD)
+
 And because the network should be in regular use,
 the price should go back to 1 USD soon,
 simply because the coin became so scares
