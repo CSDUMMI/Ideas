@@ -98,8 +98,8 @@ As you can see it is a usual transfer method for any token,
 with a few exceptions:
 
 The variable `desired_value` is the the exchange rate
-with another currency, if you'd peg your token to
-the USD and say that 1 Token = 1 USD, you set
+with another currency, if you'd desired your token to
+be asvalueable as the USD and say that 1 Token = 1 USD, you set
 the value of `desired_value` to `1` or `100`,
 depending on how high your decimal percision
 should be.
