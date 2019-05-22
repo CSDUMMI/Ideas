@@ -104,7 +104,7 @@ the value of `desired_value` to `1` or `100`,
 depending on how high your decimal percision
 should be.
 
-Then in the `transfer`-function the function
+The `transfer`-function then
 first gets the current exchange rate, in our
 example that would be the exchange rate USD to Token.
 This is later used once it is checked wheter the
