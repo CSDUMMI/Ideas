@@ -162,21 +162,21 @@ One of the major risks is that the creators of
 the coin over estimated the value of the coin
 and that the coin is just not worth what they
 desired it to be. 
-Than, if nobody wants to buy the currency,
+Then, if nobody wants to buy the currency,
 everybody who owns the currency won't get his money back out of it,
-because nobody wants to buy it from them..
+because nobody wants to buy it from them.
 
 I mostly used the word desired,
 not pegged here, because that is essentially
 what this whole thing is, a scheme to circumvent 
-the open market and its estimation of the price.
+the open market and it's estimation of the price.
 And in every cryptocurrency that this is implemented
 I would put a check in that disables this whole
-scheme, once a certain number of transactions are
-made with the coin every day for a certain time.
+scheme, once a certain constant activity is reached
+on the market.
 I would recommand to do this with all stable coins,
 to leave it for the open market at some point and
-only interfere with the price if it falls to far.
+only interfere with the price if it fluctuates to far.
 
 ## Depending on an outside source
 As you may have noticed this scheme
@@ -197,7 +197,8 @@ that invest first, they won't get any later
 advantage from buying in first, like they had
 with BTC or ETH, but they might be able to shape
 a totaly new, stable and secure market that only
-depends on the use of itself to stay stable.
+depends on the activity of it's users to stay stable.
+
 And of course, before anybody will put his life
 savings or anything important on this blockchain,
 it must proof to him that it is trust worthy.
@@ -205,4 +206,3 @@ I know  that this explanation can't do so.
 
 If you have an opinion on this matter, please
 let me know.
- 
