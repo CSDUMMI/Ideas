@@ -69,8 +69,8 @@ The seller would eventually have to go
 down to 1 USD or **less** to sell his coin 
 at all.
 
-Here we run into the second problem,
-what if the example coin is sold for less than 1 USD?
+Here we run into the second problem:
+What if the example coin is sold for less than 1 USD?
 The mint wouldn't anymore sell any coins and the price 
 of the coin wouldn't anymore be stable. 
 How do you increase the price again? 
